@@ -1,0 +1,3 @@
+## Feedback
+
+This is a solid and appropriately focused project direction. For the experiments, the two main technical decisions you should settle early are how you will define and extract flows from the PCAPNG data, since differences in timeout settings or bidirectional merging can change the learning signal quite a bit, and how you will normalize or scale packet-level and flow-level features, because models like SVMs and neural networks are highly sensitive to feature ranges. Once those preprocessing steps are well defined, the comparisons across RF, SVM, and NN models should be clean and informative.
